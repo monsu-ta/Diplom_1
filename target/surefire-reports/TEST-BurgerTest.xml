@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="BurgerTest" time="0.047" tests="7" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="BurgerTest" time="0.246" tests="9" errors="0" skipped="0" failures="1">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1251"/>
-    <property name="java.class.path" value="C:\Users\79264\Diplom_1\target\test-classes;C:\Users\79264\Diplom_1\target\classes;C:\Users\79264\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\79264\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\79264\.m2\repository\org\mockito\mockito-core\4.11.0\mockito-core-4.11.0.jar;C:\Users\79264\.m2\repository\net\bytebuddy\byte-buddy\1.12.19\byte-buddy-1.12.19.jar;C:\Users\79264\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.19\byte-buddy-agent-1.12.19.jar;C:\Users\79264\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;"/>
+    <property name="java.class.path" value="C:\Users\79264\Diplom_1\target\test-classes;C:\Users\79264\Diplom_1\target\classes;C:\Users\79264\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\79264\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\79264\.m2\repository\org\mockito\mockito-core\4.11.0\mockito-core-4.11.0.jar;C:\Users\79264\.m2\repository\net\bytebuddy\byte-buddy\1.12.19\byte-buddy-1.12.19.jar;C:\Users\79264\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.19\byte-buddy-agent-1.12.19.jar;C:\Users\79264\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\79264\.m2\repository\org\assertj\assertj-core\3.24.2\assertj-core-3.24.2.jar;"/>
     <property name="java.vm.vendor" value="Amazon.com Inc."/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -17,9 +17,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Amazon Corretto\jdk11.0.26_4\bin"/>
-    <property name="sun.java.command" value="C:\Users\79264\AppData\Local\Temp\surefire11341086537536551503\surefirebooter-20250628204813809_3.jar C:\Users\79264\AppData\Local\Temp\surefire11341086537536551503 2025-06-28T20-48-13_553-jvmRun1 surefire-20250628204813809_1tmp surefire_0-20250628204813809_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\79264\AppData\Local\Temp\surefire11318901642330515772\surefirebooter-20250630135703793_3.jar C:\Users\79264\AppData\Local\Temp\surefire11318901642330515772 2025-06-30T13-57-03_563-jvmRun1 surefire-20250630135703793_1tmp surefire_0-20250630135703793_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\79264\Diplom_1\target\test-classes;C:\Users\79264\Diplom_1\target\classes;C:\Users\79264\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\79264\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\79264\.m2\repository\org\mockito\mockito-core\4.11.0\mockito-core-4.11.0.jar;C:\Users\79264\.m2\repository\net\bytebuddy\byte-buddy\1.12.19\byte-buddy-1.12.19.jar;C:\Users\79264\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.19\byte-buddy-agent-1.12.19.jar;C:\Users\79264\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\79264\Diplom_1\target\test-classes;C:\Users\79264\Diplom_1\target\classes;C:\Users\79264\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\79264\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\79264\.m2\repository\org\mockito\mockito-core\4.11.0\mockito-core-4.11.0.jar;C:\Users\79264\.m2\repository\net\bytebuddy\byte-buddy\1.12.19\byte-buddy-1.12.19.jar;C:\Users\79264\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.19\byte-buddy-agent-1.12.19.jar;C:\Users\79264\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\79264\.m2\repository\org\assertj\assertj-core\3.24.2\assertj-core-3.24.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\79264"/>
     <property name="user.language" value="ru"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\79264\AppData\Local\Temp\surefire11341086537536551503\surefirebooter-20250628204813809_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\79264\AppData\Local\Temp\surefire11318901642330515772\surefirebooter-20250630135703793_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.26+4-LTS"/>
@@ -61,15 +61,31 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="testGetPrice" classname="BurgerTest" time="0.001"/>
-  <testcase name="testRemoveIngredient" classname="BurgerTest" time="0.006"/>
-  <testcase name="testMoveIngredient" classname="BurgerTest" time="0.004"/>
-  <testcase name="testGetReceiptWithNoIngredients" classname="BurgerTest" time="0.013">
-    <failure message="Чек не должен содержать ингредиенты" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Чек не должен содержать ингредиенты
-	at org.junit.Assert.fail(Assert.java:89)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at org.junit.Assert.assertFalse(Assert.java:65)
-	at BurgerTest.testGetReceiptWithNoIngredients(BurgerTest.java:144)
+  <testcase name="testMoveIngredientPosition" classname="BurgerTest" time="0.083"/>
+  <testcase name="testRemoveIngredientSize" classname="BurgerTest" time="0.003"/>
+  <testcase name="testSetBunsName" classname="BurgerTest" time="0.005"/>
+  <testcase name="testGetPriceCalculation" classname="BurgerTest" time="0.11"/>
+  <testcase name="testGetReceiptContainsBun" classname="BurgerTest" time="0.009"/>
+  <testcase name="testAddIngredientSize" classname="BurgerTest" time="0.005"/>
+  <testcase name="testGetReceiptWithNoIngredients" classname="BurgerTest" time="0.017">
+    <failure message="&#10;The following assertion failed:&#10;1) &#10;Expecting actual:&#10;  &quot;(==== red bun ====)&#10;(==== red bun ====)&#10;&#10;Price: 200,000000&#10;&quot;&#10;not to contain:&#10;  &quot;= &quot;&#10;at BurgerTest.testGetReceiptWithNoIngredients(BurgerTest.java:125)&#10;" type="org.assertj.core.api.SoftAssertionError"><![CDATA[org.assertj.core.api.SoftAssertionError: 
+
+The following assertion failed:
+1) 
+Expecting actual:
+  "(==== red bun ====)
+(==== red bun ====)
+
+Price: 200,000000
+"
+not to contain:
+  "= "
+at BurgerTest.testGetReceiptWithNoIngredients(BurgerTest.java:125)
+
+	at org.assertj.core.error.AssertionErrorCreator.multipleSoftAssertionsError(AssertionErrorCreator.java:100)
+	at org.assertj.core.api.AbstractSoftAssertions.assertAll(AbstractSoftAssertions.java:37)
+	at org.assertj.core.api.AbstractSoftAssertions.assertAll(AbstractSoftAssertions.java:42)
+	at BurgerTest.testGetReceiptWithNoIngredients(BurgerTest.java:126)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -106,7 +122,6 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
   </testcase>
-  <testcase name="testGetReceipt" classname="BurgerTest" time="0.007"/>
-  <testcase name="testSetBuns" classname="BurgerTest" time="0.004"/>
-  <testcase name="testAddIngredient" classname="BurgerTest" time="0.004"/>
+  <testcase name="testSetBunsPrice" classname="BurgerTest" time="0.002"/>
+  <testcase name="testGetReceiptContainsIngredients" classname="BurgerTest" time="0.003"/>
 </testsuite>

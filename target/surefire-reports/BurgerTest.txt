@@ -1,13 +1,26 @@
 -------------------------------------------------------------------------------
 Test set: BurgerTest
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.047 s <<< FAILURE! -- in BurgerTest
-BurgerTest.testGetReceiptWithNoIngredients -- Time elapsed: 0.013 s <<< FAILURE!
-java.lang.AssertionError: Чек не должен содержать ингредиенты
-	at org.junit.Assert.fail(Assert.java:89)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at org.junit.Assert.assertFalse(Assert.java:65)
-	at BurgerTest.testGetReceiptWithNoIngredients(BurgerTest.java:144)
+Tests run: 9, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.246 s <<< FAILURE! -- in BurgerTest
+BurgerTest.testGetReceiptWithNoIngredients -- Time elapsed: 0.017 s <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following assertion failed:
+1) 
+Expecting actual:
+  "(==== red bun ====)
+(==== red bun ====)
+
+Price: 200,000000
+"
+not to contain:
+  "= "
+at BurgerTest.testGetReceiptWithNoIngredients(BurgerTest.java:125)
+
+	at org.assertj.core.error.AssertionErrorCreator.multipleSoftAssertionsError(AssertionErrorCreator.java:100)
+	at org.assertj.core.api.AbstractSoftAssertions.assertAll(AbstractSoftAssertions.java:37)
+	at org.assertj.core.api.AbstractSoftAssertions.assertAll(AbstractSoftAssertions.java:42)
+	at BurgerTest.testGetReceiptWithNoIngredients(BurgerTest.java:126)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

@@ -1,16 +1,14 @@
-
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.mockito.Mock;
+import org.assertj.core.api.SoftAssertions;
 import praktikum.Ingredient;
 import praktikum.IngredientType;
 
 import java.util.Arrays;
 import java.util.Collection;
-
-import static org.junit.Assert.assertEquals;
 
 @RunWith(Parameterized.class)
 public class BurgerParameterizedTest extends BurgerTestBase {
@@ -43,9 +41,18 @@ public class BurgerParameterizedTest extends BurgerTestBase {
     }
 
     @Test
-    public void testAddDifferentIngredients() {
+    public void testAddIngredientSize() {
         addIngredient(testIngredient);
-        assertEquals(1, burger.ingredients.size());
-        assertEquals(ingredientName, burger.ingredients.get(0).getName());
+        SoftAssertions softly = new SoftAssertions();
+        softly.assertThat(burger.ingredients).hasSize(1);
+        softly.assertAll();
+    }
+
+    @Test
+    public void testAddedIngredientName() {
+        addIngredient(testIngredient);
+        SoftAssertions softly = new SoftAssertions();
+        softly.assertThat(burger.ingredients.get(0).getName()).isEqualTo(ingredientName);
+        softly.assertAll();
     }
 }

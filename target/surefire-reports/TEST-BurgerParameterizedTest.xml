@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="BurgerParameterizedTest" time="0.818" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="BurgerParameterizedTest" time="1.411" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1251"/>
-    <property name="java.class.path" value="C:\Users\79264\Diplom_1\target\test-classes;C:\Users\79264\Diplom_1\target\classes;C:\Users\79264\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\79264\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\79264\.m2\repository\org\mockito\mockito-core\4.11.0\mockito-core-4.11.0.jar;C:\Users\79264\.m2\repository\net\bytebuddy\byte-buddy\1.12.19\byte-buddy-1.12.19.jar;C:\Users\79264\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.19\byte-buddy-agent-1.12.19.jar;C:\Users\79264\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;"/>
+    <property name="java.class.path" value="C:\Users\79264\Diplom_1\target\test-classes;C:\Users\79264\Diplom_1\target\classes;C:\Users\79264\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\79264\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\79264\.m2\repository\org\mockito\mockito-core\4.11.0\mockito-core-4.11.0.jar;C:\Users\79264\.m2\repository\net\bytebuddy\byte-buddy\1.12.19\byte-buddy-1.12.19.jar;C:\Users\79264\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.19\byte-buddy-agent-1.12.19.jar;C:\Users\79264\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\79264\.m2\repository\org\assertj\assertj-core\3.24.2\assertj-core-3.24.2.jar;"/>
     <property name="java.vm.vendor" value="Amazon.com Inc."/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -17,9 +17,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Amazon Corretto\jdk11.0.26_4\bin"/>
-    <property name="sun.java.command" value="C:\Users\79264\AppData\Local\Temp\surefire11341086537536551503\surefirebooter-20250628204813809_3.jar C:\Users\79264\AppData\Local\Temp\surefire11341086537536551503 2025-06-28T20-48-13_553-jvmRun1 surefire-20250628204813809_1tmp surefire_0-20250628204813809_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\79264\AppData\Local\Temp\surefire11318901642330515772\surefirebooter-20250630135703793_3.jar C:\Users\79264\AppData\Local\Temp\surefire11318901642330515772 2025-06-30T13-57-03_563-jvmRun1 surefire-20250630135703793_1tmp surefire_0-20250630135703793_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\79264\Diplom_1\target\test-classes;C:\Users\79264\Diplom_1\target\classes;C:\Users\79264\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\79264\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\79264\.m2\repository\org\mockito\mockito-core\4.11.0\mockito-core-4.11.0.jar;C:\Users\79264\.m2\repository\net\bytebuddy\byte-buddy\1.12.19\byte-buddy-1.12.19.jar;C:\Users\79264\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.19\byte-buddy-agent-1.12.19.jar;C:\Users\79264\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\79264\Diplom_1\target\test-classes;C:\Users\79264\Diplom_1\target\classes;C:\Users\79264\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\79264\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\79264\.m2\repository\org\mockito\mockito-core\4.11.0\mockito-core-4.11.0.jar;C:\Users\79264\.m2\repository\net\bytebuddy\byte-buddy\1.12.19\byte-buddy-1.12.19.jar;C:\Users\79264\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.19\byte-buddy-agent-1.12.19.jar;C:\Users\79264\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\79264\.m2\repository\org\assertj\assertj-core\3.24.2\assertj-core-3.24.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\79264"/>
     <property name="user.language" value="ru"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\79264\AppData\Local\Temp\surefire11341086537536551503\surefirebooter-20250628204813809_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\79264\AppData\Local\Temp\surefire11318901642330515772\surefirebooter-20250630135703793_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.26+4-LTS"/>
@@ -61,6 +61,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="testAddDifferentIngredients[Тип: SAUCE, Название: hot sauce, Цена: 100]" classname="BurgerParameterizedTest" time="0.713"/>
-  <testcase name="testAddDifferentIngredients[Тип: FILLING, Название: cutlet, Цена: 200]" classname="BurgerParameterizedTest" time="0.003"/>
+  <testcase name="testAddedIngredientName[Тип: SAUCE, Название: hot sauce, Цена: 100]" classname="BurgerParameterizedTest" time="1.081"/>
+  <testcase name="testAddIngredientSize[Тип: SAUCE, Название: hot sauce, Цена: 100]" classname="BurgerParameterizedTest" time="0.235"/>
+  <testcase name="testAddedIngredientName[Тип: FILLING, Название: cutlet, Цена: 200]" classname="BurgerParameterizedTest" time="0.005"/>
+  <testcase name="testAddIngredientSize[Тип: FILLING, Название: cutlet, Цена: 200]" classname="BurgerParameterizedTest" time="0.005"/>
 </testsuite>
