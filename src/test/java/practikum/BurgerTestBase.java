@@ -1,3 +1,4 @@
+package practikum;
 
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
